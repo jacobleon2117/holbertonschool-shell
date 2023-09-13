@@ -1,3 +1,2 @@
 #!/bin/bash 
-$ echo "AZ" | tr -d t
- Zea
+$ echo 'Replace all characters `A` and `c` from input to `Z` and `e`.'

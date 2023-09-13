@@ -1,2 +1,2 @@
 #!/bin/bash 
-echo "Ze" | tr 'A' 'c''
+echo "" | tr 'Ac' 'Ze''

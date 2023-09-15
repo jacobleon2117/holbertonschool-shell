@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "hello user"
-id -un jacobleon
+echo "hello $user"

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# A script using a loop to use the fucntion like ls.
+for x in *
+do
+    echo "${x#*-}"
+done

@@ -1,4 +1,4 @@
-#!/usr/bin/env bas
+#!/usr/bin/env bash
 # Using nested loops to diplay the time.
 h=0
 m=1

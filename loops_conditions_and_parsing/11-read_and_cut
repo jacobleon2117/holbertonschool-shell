@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# looping through lines and cutting them down.
+while IFS=: read -r col1 _ col3 _ _ col6 _
+do
+    echo "$col1:$col3:$col6"
+done < /etc/passwd

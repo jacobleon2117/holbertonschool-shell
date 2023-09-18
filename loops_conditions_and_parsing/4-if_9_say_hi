@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# using while script to diplay "best school" 9 times and using if to diplay hi once
+y=1
+while [ $y -le 10 ]
+do
+    echo "Best School"
+    if [ $y -eq 9 ]
+    then
+        echo "Hi"
+    fi
+    x=$((y+1))
+done
